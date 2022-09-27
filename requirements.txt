@@ -1,0 +1,4 @@
+1-- Python
+2-- Streamlit library (pip install streamlit)
+3-- Requests Module (pip install requests)
+4-- Json Module 

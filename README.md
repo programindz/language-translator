@@ -1,4 +1,4 @@
-#Language
+# Language Translator
 
 Simple translator you can use and contains most of the languages.
 <div>

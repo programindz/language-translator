@@ -68,10 +68,10 @@ url = "https://cheap-translate.p.rapidapi.com/translate"
 payload = "{\"fromLang\" : \"auto-detect\", \"text\": \"%s\", \"to\": \"%s\"}"%(text_to_translate, output_language)
 
 headers = {
-    'content-type': "application/json",
-    'x-rapidapi-host': "cheap-translate.p.rapidapi.com",
-    'x-rapidapi-key': "1bb4ae38e4msh41488d47c23c2bep1ceec9jsncf9727ecbf11"
-    }
+	"content-type": "application/json",
+	"X-RapidAPI-Key": "1bb4ae38e4msh41488d47c23c2bep1ceec9jsncf9727ecbf11",
+	"X-RapidAPI-Host": "cheap-translate.p.rapidapi.com"
+}
 
 
 translate_button = st.button("TRANSLATE")
